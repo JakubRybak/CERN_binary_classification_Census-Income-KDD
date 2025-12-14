@@ -29,7 +29,7 @@ The project followed a rigorous pipeline focusing on data quality and ethical fe
     *   The high impact of custom features (`net_capital`, `is_investor`) validates the feature engineering strategy.
 *   **Metric Analysis:**
     *   **High ROC AUC (0.93):** While technically high, this metric can be overly optimistic for imbalanced datasets. It indicates good ranking capability, but does not fully reflect the difficulty in achieving high Precision/Recall for the minority class (as seen in the lower F1 score).
-    *   **Moderate F1 (0.58):** Despite good ranking, finding a precise decision boundary is challenging due to the imbalance and noise, resulting in lower precision/recall trade-offs.
+    *   **Moderate F1 (0.58) and Average Precision (0.62):** Despite good ranking, finding a precise decision boundary is challenging due to the imbalance and noise, resulting in lower precision/recall trade-offs.
 
 ## 5. Final Model & Metrics
 The final model uses an RBF kernel, optimized for the best balance between detecting high earners and minimizing false positives.
