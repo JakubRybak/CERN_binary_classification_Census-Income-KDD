@@ -18,7 +18,7 @@ The project followed a rigorous pipeline focusing on data quality and ethical fe
 
 ### B. Model Optimization
 *   **Process:** Initial training was performed on a 5k subset for hyperparameter tuning, followed by validation on larger sets.
-*   **Experiments:** Tested various SVM kernels (Linear, RBF), class weighting strategies, and undersampling.
+*   **Experiments:** Tested SVM kernels (Linear, RBF), class weighting strategies, and undersampling.
 *   **Benchmark:** An **XGBoost** model was trained to benchmark the SVM. The tree-based model yielded similarly moderate results, suggesting that the performance ceiling is due to intrinsic data difficulty rather than the choice of the SVM algorithm.
 
 ## 4. Key Findings
