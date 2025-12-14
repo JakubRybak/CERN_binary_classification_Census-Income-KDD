@@ -46,5 +46,6 @@ The final model uses an RBF kernel, optimized for the best balance between detec
 | :--- | :--- |
 | **ROC AUC** | **0.93** |
 | **Recall** | 0.61 |
-| **F1-Score** | 0.58 |
 | **Precision** | 0.55 |
+| **F1-Score** | 0.58 |
+| **Average Precision** | 0.62 |
